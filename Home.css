@@ -72,24 +72,31 @@
   border-style: none;
   font-weight: 700;
   font-size: 0.9375rem;
-  background-image: none;
   margin: 11px auto 0;
-  padding: 8px 33px;
 }
 
 .u-section-3 .u-btn-2 {
   border-style: none;
   font-weight: 700;
   font-size: 0.9375rem;
-  background-image: none;
   margin: 20px auto 11px;
   padding: 8px 33px;
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 130px;
+  }
+
   .u-section-3 .u-btn-1 {
-    padding-right: 51px;
-    padding-left: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 29px;
+  }
+
+  .u-section-3 .u-btn-2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 125px;

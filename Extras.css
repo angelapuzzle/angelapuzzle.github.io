@@ -70,16 +70,16 @@
     font-size: 1.125rem;
   }
 } .u-section-3 {
-  min-height: 143px;
+  min-height: 141px;
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 425px;
+  min-height: 441px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  width: 100%;
-  margin: 0 0 25px;
+  width: 1140px;
+  margin: 21px 0;
 }
 
 .u-section-3 .u-layout-cell-1 {
@@ -87,7 +87,7 @@
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 29px 60px;
+  padding: 30px 60px;
 }
 
 .u-section-3 .u-icon-1 {
@@ -99,12 +99,7 @@
 }
 
 .u-section-3 .u-text-1 {
-  margin: 20px 0 0;
-}
-
-.u-section-3 .u-text-2 {
-  font-size: 1.25rem;
-  margin: 6px 0 0;
+  margin: 21px 0 0;
 }
 
 .u-section-3 .u-btn-1 {
@@ -112,12 +107,13 @@
   font-weight: 700;
   font-size: 0.9375rem;
   background-image: none;
-  margin: 16px auto 0;
+  margin: 20px auto 0;
   padding: 8px 33px;
 }
 
 .u-section-3 .u-image-1 {
   min-height: 400px;
+  background-image: url("images/RibbitTumb.png");
   background-position: 50% 50%;
 }
 
@@ -127,19 +123,20 @@
 
 .u-section-3 .u-group-1 {
   background-image: none;
-  margin-top: 0;
-  margin-bottom: 0;
   min-height: 400px;
   height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
 }
 
 .u-section-3 .u-container-layout-3 {
-  padding: 30px 24px 23px;
+  padding: 30px 24px 0;
 }
 
-.u-section-3 .u-text-3 {
+.u-section-3 .u-text-2 {
   font-size: 1.25rem;
-  margin: 58px 6px 0;
+  margin: 58px 0 0;
 }
 
 .u-section-3 .u-btn-2 {
@@ -149,34 +146,38 @@
 
 @media (max-width: 1199px) {
    .u-section-3 {
-    min-height: 318px;
+    min-height: 71px;
   }
 
   .u-section-3 .u-sheet-1 {
-    min-height: 89px;
+    min-height: 371px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    width: 940px;
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 568px;
-  }
-
-  .u-section-3 .u-text-1 {
-    margin-left: 35px;
-    margin-right: 35px;
+    min-height: 330px;
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 774px;
+    min-height: 330px;
   }
 
   .u-section-3 .u-group-1 {
     height: auto;
+    width: auto;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-3 {
-    min-height: 66px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 294px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    width: 720px;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -189,70 +190,65 @@
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 846px;
+    min-height: 253px;
   }
 
-  .u-section-3 .u-container-layout-2 {
-    padding: 0;
+  .u-section-3 .u-text-2 {
+    margin-top: 14px;
   }
 }
 
 @media (max-width: 767px) {
+   .u-section-3 {
+    min-height: 298px;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 521px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
   .u-section-3 .u-container-layout-1 {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 1336px;
+    min-height: 380px;
   }
 
   .u-section-3 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-3 .u-text-2 {
+    margin-top: 58px;
+  }
 }
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 643px;
+    min-height: 157px;
   }
 
   .u-section-3 .u-sheet-1 {
-    min-height: 793px;
+    min-height: 380px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
     width: 340px;
-    margin-bottom: 26px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 114px;
-  }
-
-  .u-section-3 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .u-section-3 .u-text-1 {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-3 .u-text-2 {
-    font-size: 0.875rem;
-    margin-left: 1px;
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 286px;
+    min-height: 239px;
   }
 
-  .u-section-3 .u-text-3 {
-    margin-top: 10px;
+  .u-section-3 .u-text-2 {
+    margin-top: 14px;
   }
 } .u-section-4 {
   min-height: 141px;
@@ -279,12 +275,12 @@
   height: 125px;
   width: 125px;
   background-image: none;
-  margin: 1px auto 0;
+  margin: 0 auto;
   padding: 8px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 20px 0 0;
+  margin: 21px 0 0;
 }
 
 .u-section-4 .u-btn-1 {
@@ -298,6 +294,7 @@
 
 .u-section-4 .u-image-1 {
   min-height: 400px;
+  background-image: url("images/DeltaTranslateTumb.png");
   background-position: 50% 50%;
 }
 
@@ -363,12 +360,8 @@
     min-height: 254px;
   }
 
-  .u-section-4 .u-container-layout-2 {
-    padding: 0;
-  }
-
-  .u-section-4 .u-container-layout-3 {
-    padding-bottom: 0;
+  .u-section-4 .u-text-2 {
+    margin-top: 42px;
   }
 }
 
@@ -385,6 +378,10 @@
   .u-section-4 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-top: 74px;
   }
 }
 

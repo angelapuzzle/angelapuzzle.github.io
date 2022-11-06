@@ -1,3 +1,7 @@
+ .u-section-1 {
+  background-image: none;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 528px;
 }
@@ -66,64 +70,81 @@
     font-size: 1.125rem;
   }
 } .u-section-3 {
-  min-height: 66px;
+  min-height: 143px;
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 675px;
+  min-height: 425px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin: 0 auto 20px 0;
+  width: 100%;
+  margin: 0 0 25px;
 }
 
 .u-section-3 .u-layout-cell-1 {
-  min-height: 678px;
+  min-height: 400px;
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 30px 60px;
+  padding: 29px 60px;
 }
 
 .u-section-3 .u-icon-1 {
-  height: 148px;
-  width: 148px;
+  height: 125px;
+  width: 125px;
   background-image: none;
-  margin: 10px auto 0;
+  margin: 0 auto;
   padding: 21px;
 }
 
 .u-section-3 .u-text-1 {
-  margin: 13px 35px 0;
+  margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-2 {
-  font-size: 1rem;
-  margin: 42px 0 0;
+  font-size: 1.25rem;
+  margin: 6px 0 0;
 }
 
 .u-section-3 .u-btn-1 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-3 .u-btn-2 {
   border-style: none;
   font-weight: 700;
   font-size: 0.9375rem;
   background-image: none;
-  margin: 17px auto 0;
+  margin: 16px auto 0;
   padding: 8px 33px;
 }
 
 .u-section-3 .u-image-1 {
-  min-height: 655px;
-  background-image: url("images/RibbitTumb.png");
+  min-height: 400px;
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-2 {
-  padding: 30px 60px;
+  padding: 0;
+}
+
+.u-section-3 .u-group-1 {
+  background-image: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 400px;
+  height: auto;
+}
+
+.u-section-3 .u-container-layout-3 {
+  padding: 30px 24px 23px;
+}
+
+.u-section-3 .u-text-3 {
+  font-size: 1.25rem;
+  margin: 58px 6px 0;
+}
+
+.u-section-3 .u-btn-2 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -135,17 +156,21 @@
     min-height: 89px;
   }
 
-  .u-section-3 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 568px;
   }
 
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 559px;
+  .u-section-3 .u-text-1 {
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 540px;
+    min-height: 774px;
+  }
+
+  .u-section-3 .u-group-1 {
+    height: auto;
   }
 }
 
@@ -164,12 +189,11 @@
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 414px;
+    min-height: 846px;
   }
 
   .u-section-3 .u-container-layout-2 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0;
   }
 }
 
@@ -180,10 +204,10 @@
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 621px;
+    min-height: 1336px;
   }
 
-  .u-section-3 .u-container-layout-2 {
+  .u-section-3 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -191,21 +215,20 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 143px;
+    min-height: 643px;
   }
 
   .u-section-3 .u-sheet-1 {
-    min-height: 1010px;
+    min-height: 793px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
-    margin-bottom: 0;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
+    margin-bottom: 26px;
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 533px;
+    min-height: 114px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -225,22 +248,27 @@
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 287px;
+    min-height: 286px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-top: 10px;
   }
 } .u-section-4 {
-  min-height: 66px;
+  min-height: 141px;
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 675px;
+  min-height: 441px;
 }
 
 .u-section-4 .u-layout-wrap-1 {
-  margin: 0 auto 20px 0;
+  width: 100%;
+  margin: 21px 0;
 }
 
 .u-section-4 .u-layout-cell-1 {
-  min-height: 668px;
+  min-height: 400px;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -248,20 +276,15 @@
 }
 
 .u-section-4 .u-icon-1 {
-  height: 148px;
-  width: 148px;
+  height: 125px;
+  width: 125px;
   background-image: none;
-  margin: 10px auto 0;
+  margin: 1px auto 0;
   padding: 8px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 13px auto 0;
-}
-
-.u-section-4 .u-text-2 {
-  font-size: 1rem;
-  margin: 29px 0 0;
+  margin: 20px 0 0;
 }
 
 .u-section-4 .u-btn-1 {
@@ -274,13 +297,30 @@
 }
 
 .u-section-4 .u-image-1 {
-  min-height: 655px;
-  background-image: url("images/DeltaTranslateTumb.png");
+  min-height: 400px;
   background-position: 50% 50%;
 }
 
 .u-section-4 .u-container-layout-2 {
-  padding: 30px 60px;
+  padding: 0;
+}
+
+.u-section-4 .u-group-1 {
+  background-image: none;
+  min-height: 400px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.u-section-4 .u-container-layout-3 {
+  padding: 30px 24px 0;
+}
+
+.u-section-4 .u-text-2 {
+  font-size: 1.25rem;
+  margin: 74px 1px 0 11px;
 }
 
 @media (max-width: 1199px) {
@@ -292,17 +332,16 @@
     min-height: 89px;
   }
 
-  .u-section-4 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-4 .u-layout-cell-1 {
-    min-height: 551px;
+    min-height: 331px;
   }
 
   .u-section-4 .u-image-1 {
-    min-height: 540px;
+    min-height: 331px;
+  }
+
+  .u-section-4 .u-group-1 {
+    height: auto;
   }
 }
 
@@ -321,12 +360,15 @@
   }
 
   .u-section-4 .u-image-1 {
-    min-height: 414px;
+    min-height: 254px;
   }
 
   .u-section-4 .u-container-layout-2 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0;
+  }
+
+  .u-section-4 .u-container-layout-3 {
+    padding-bottom: 0;
   }
 }
 
@@ -337,10 +379,10 @@
   }
 
   .u-section-4 .u-image-1 {
-    min-height: 621px;
+    min-height: 381px;
   }
 
-  .u-section-4 .u-container-layout-2 {
+  .u-section-4 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -348,22 +390,11 @@
 
 @media (max-width: 575px) {
    .u-section-4 {
-    min-height: 143px;
+    min-height: 641px;
   }
 
   .u-section-4 .u-sheet-1 {
-    min-height: 953px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-4 .u-layout-cell-1 {
-    min-height: 510px;
+    min-height: 760px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -373,17 +404,14 @@
 
   .u-section-4 .u-text-1 {
     width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-4 .u-text-2 {
-    font-size: 0.875rem;
-    margin-left: 1px;
   }
 
   .u-section-4 .u-image-1 {
-    min-height: 311px;
+    min-height: 240px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-top: 42px;
   }
 }@font-face {
   font-family: 'Determination-Sans';
